@@ -1,0 +1,21 @@
+<?php
+include(action.php);
+
+echo "Welcome! This is your kart balance";
+
+$connect = mysqli_connect("localhost", "root", "jbrag42669", "testdb");
+
+
+$query = "  
+      SELECT balance FROM wallet  
+      WHERE username = '".$_POST["uname"]."'        
+      ";
+
+
+
+
+
+
+
+
+?>
